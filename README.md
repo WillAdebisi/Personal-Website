@@ -28,7 +28,7 @@ This portfolio website highlights my projects, technical skills, and professiona
 ## Technologies Used
 
 - **Frontend**: React.js, JavaScript, HTML5, CSS3
-- **Deployment**: Hosted using [GitHub Pages/Netlify/Vercel] (choose your hosting platform)
+- **Deployment**: Hosted using GitHub Page
 - **Tools**: Visual Studio Code, Git
 
 ## Projects
@@ -61,11 +61,11 @@ To run the website locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/WillAdebisi/personal-portfolio.git
+   git clone https://github.com/WillAdebisi/personal-website.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd personal-portfolio
+   cd personal-website
    ```
 3. Install dependencies:
    ```bash
