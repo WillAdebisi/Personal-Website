@@ -1,167 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="William Adebisi's Personal Portfolio Website showcasing skills, projects, and professional experience.">
-  <title>William Adebisi - Portfolio</title>
-  <link rel="stylesheet" href="styles.css"> <!-- External stylesheet for better styling -->
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f8f9fa;
-      color: #343a40;
-    }
-    header {
-      background: #007bff;
-      color: #fff;
-      padding: 1rem 0;
-      text-align: center;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      background: #343a40;
-    }
-    nav ul li {
-      margin: 0 10px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      padding: 10px 15px;
-      display: block;
-      transition: background 0.3s;
-    }
-    nav ul li a:hover {
-      background: #007bff;
-    }
-    section {
-      margin: 2rem auto;
-      max-width: 800px;
-      padding: 1rem;
-      background: #fff;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-    section h2 {
-      border-bottom: 2px solid #007bff;
-      padding-bottom: 0.5rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #343a40;
-      color: #fff;
-    }
-    code {
-      background: #e9ecef;
-      padding: 2px 4px;
-      border-radius: 3px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>William Adebisi - Portfolio</h1>
-    <p>Explore my projects, skills, and experiences as a computer science student and aspiring software engineer.</p>
-  </header>
+# Personal Portfolio Website
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#technologies-used">Technologies</a></li>
-      <li><a href="#installation">Installation</a></li>
-      <li><a href="#usage">Usage</a></li>
-      <li><a href="#contributing">Contributing</a></li>
-      <li><a href="#license">License</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+Welcome to the repository for my personal portfolio website! This site is a showcase of my skills, projects, and experiences as a computer science student and aspiring software engineer.
 
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>This portfolio highlights my projects, technical skills, and professional experiences. Designed to offer a professional and engaging introduction to my work, it demonstrates my passion for software   
- development.</p>
-    </section>
+## Table of Contents
 
-    <section id="features">
-      <h2>Features</h2>
-      <ul>
-        <li>Responsive Design optimized for all devices.</li>
-        <li>Interactive components built with React.js.</li>
-        <li>Detailed project showcases and contact options.</li>
-        <li>Fast loading with performance optimizations.</li>
-      </ul>
-    </section>
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Projects](#projects)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-    <section id="technologies-used">
-      <h2>Technologies Used</h2>
-      <ul>
-        <li><strong>Frontend:</strong> React.js, JavaScript, HTML5, CSS3</li>
-        <li><strong>Deployment:</strong> Hosted on GitHub Pages</li>
-        <li><strong>Tools:</strong> Visual Studio Code, Git</li>
-      </ul>
-    </section>
+## About
 
-    <section id="installation">
-      <h2>Installation</h2>
-      <p>Follow these steps to run the site locally:</p>
-      <ol>
-        <li>Clone the repository: <code>git clone https://github.com/WillAdebisi/personal-portfolio.git</code></li>
-        <li>Navigate to the directory: <code>cd personal-portfolio</code></li>
-        <li>Install dependencies: <code>npm install</code></li>
-        <li>Run the server: <code>npm start</code></li>
-      </ol>
-      <p>Access at <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a>.</p>
-    </section>
+This portfolio website highlights my projects, technical skills, and professional experiences. Designed with a clean and professional look, the website serves as an interactive and engaging way to learn about me and my work.
 
-    <section id="usage">
-      <h2>Usage</h2>
-      <p>Explore my work through:</p>
-      <ul>
-        <li>Project showcases like <em>Reactive Gym</em>, <em>Google Clone</em>, and <em>Tic Tac Toe</em>.</li>
-        <li>Highlighting my skills, certifications, and education.</li>
-        <li>Connecting via the contact form.</li>
-      </ul>
-    </section>
+## Features
 
-    <section id="contributing">
-      <h2>Contributing</h2>
-      <p>I welcome contributions! Please:</p>
-      <ol>
-        <li>Fork the repository.</li>
-        <li>Create a feature branch: <code>git checkout -b feature-name</code></li>
-        <li>Commit changes: <code>git commit -m \"Description of changes\"</code></li>
-        <li>Push changes: <code>git push origin feature-name</code></li>
-        <li>Open a pull request.</li>
-      </ol>
-    </section>
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
+- **Dynamic Components**: Built with React.js to ensure a smooth user experience.
+- **Interactive Sections**: Includes project showcases, an about-me section, and a contact form.
+- **Optimized Performance**: Utilizes React optimization techniques for fast load times.
 
-    <section id="license">
-      <h2>License</h2>
-      <p>Licensed under the MIT License. See the LICENSE file for more information.</p>
-    </section>
+## Technologies Used
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <ul>
-        <li>Email: <a href="mailto:william.adebisi03@gmail.com">william.adebisi03@gmail.com</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/willade" target="_blank">linkedin.com/in/willade</a></li>
-        <li>GitHub: <a href="https://github.com/WillAdebisi" target="_blank">github.com/WillAdebisi</a></li>
-      </ul>
-    </section>
-  </main>
+- **Frontend**: React.js, JavaScript, HTML5, CSS3
+- **Deployment**: Hosted using [GitHub Pages/Netlify/Vercel] (choose your hosting platform)
+- **Tools**: Visual Studio Code, Git
 
-  <footer>
-    <p>&copy; 2025 William Adebisi. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+## Projects
+
+### Reactive Gym Website
+- **Technologies**: React.js, JavaScript, HTML5, CSS3
+- Developed a responsive website improving responsiveness by 30%.
+- Utilized modular React components to enhance maintainability, reducing development time by 25%.
+- Implemented client-side form validation for better user experience and data integrity.
+- Applied optimization techniques to improve load times by 35%.
+
+### Google Clone
+- **Technologies**: HTML5, CSS3
+- Created a front-end replica of Google's homepage with an interactive and professional interface.
+- Customized the design to uniquely reflect personal creativity and proficiency in web development.
+
+### Tic Tac Toe
+- **Technologies**: HTML5, CSS3, JavaScript
+- Built a functional and interactive Tic Tac Toe game with an intuitive user interface.
+- Designed seamless game logic, showcasing expertise in JavaScript and front-end principles.
+
+### JPMorgan Software Engineering Virtual Experience
+- **Technologies**: Python, JavaScript
+- Established a local dev environment and debugged files to ensure correct application output.
+- Researched and integrated JPMorgan’s open-source Perspective library to create live data visualizations.
+
+## Installation
+
+To run the website locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/WillAdebisi/personal-portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd personal-portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+The website will be available at `http://localhost:3000/`.
+
+## Usage
+
+This website serves as an interactive portfolio to:
+
+- Showcase projects like Reactive Gym, Google Clone, Tic Tac Toe, and others.
+- Highlight technical skills, certifications, and education.
+- Provide an avenue for potential collaborators or employers to contact me.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please follow these steps:
+
+1. Fork the repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+Feel free to reach out to me:
+
+- **Email**: [william.adebisi03@gmail.com](mailto:william.adebisi03@gmail.com)
+- **LinkedIn**: [linkedin.com/in/willade](https://linkedin.com/in/willade)
+- **GitHub**: [github.com/WillAdebisi](https://github.com/WillAdebisi)
+
+Thank you for visiting my portfolio website repository!
+
