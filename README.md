@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the repository for my personal portfolio website! This site is a showcase of my skills, projects, and experiences as a computer science student and aspiring software engineer.
 
-## Available Scripts
+Table of Contents
 
-In the project directory, you can run:
+About
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Installation
 
-### `npm test`
+Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contributing
 
-### `npm run build`
+License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+About
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This portfolio website highlights my projects, technical skills, and professional experiences. Designed with a clean and professional look, the website serves as an interactive and engaging way to learn about me and my work.
 
-### `npm run eject`
+Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Dynamic Components: Built with React.js to ensure a smooth user experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Interactive Sections: Includes project showcases, an about-me section, and a contact form.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Optimized Performance: Utilizes React optimization techniques for fast load times.
 
-## Learn More
+Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Frontend: React.js, JavaScript, HTML5, CSS3
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deployment: Hosted using [GitHub Pages/Netlify/Vercel] (choose your hosting platform)
 
-### Code Splitting
+Tools: Visual Studio Code, Git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Installation
 
-### Analyzing the Bundle Size
+To run the website locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clone the repository:
 
-### Making a Progressive Web App
+git clone https://github.com/WillAdebisi/personal-portfolio.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Navigate to the project directory:
 
-### Advanced Configuration
+cd personal-portfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Install dependencies:
 
-### Deployment
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Start the development server:
 
-### `npm run build` fails to minify
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The website will be available at http://localhost:3000/.
+
+Usage
+
+This website serves as an interactive portfolio to:
+
+Showcase projects like Reactive Gym, Google Clone, Tic Tac Toe, and others.
+
+Highlight technical skills, certifications, and education.
+
+Provide an avenue for potential collaborators or employers to contact me.
+
+Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please follow these steps:
+
+Fork the repository.
+
+Create a feature branch:
+
+git checkout -b feature-name
+
+Commit your changes:
+
+git commit -m "Description of changes"
+
+Push to the branch:
+
+git push origin feature-name
+
+Open a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+
+Feel free to reach out to me:
+
+Email: william.adebisi03@gmail.com
+
+LinkedIn: linkedin.com/in/willade
+
+GitHub: github.com/WillAdebisi
+
+Thank you for visiting my portfolio website repository!
